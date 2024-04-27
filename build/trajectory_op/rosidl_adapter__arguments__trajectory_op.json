@@ -1,0 +1,6 @@
+{
+  "package_name": "trajectory_op",
+  "non_idl_tuples": [
+    "/home/anmol/anscer_task/src/trajectory_op:srv/Saver.srv"
+  ]
+}

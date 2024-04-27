@@ -1,0 +1,7 @@
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::timer_callback()[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:119:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+  119 |       publisher_.[01;31m[Kpublish[m[K(marker);
+      |                  [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:76: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_saver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

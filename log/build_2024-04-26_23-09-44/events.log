@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000190] (trajectory_op) JobQueued: {'identifier': 'trajectory_op', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/anmol/anscer_task/install/tutorial_interfaces')])}
+[0.000213] (trajectory_op) JobStarted: {'identifier': 'trajectory_op'}
+[0.017124] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'cmake'}
+[0.017698] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'build'}
+[0.018350] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--', '-j12', '-l12'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1811,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2baab02a_9b42_4599_af8c_a0606ed4dd8d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6CQXM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1380'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.079294] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_publisher_saver\x1b[0m\n'}
+[0.096877] (trajectory_op) StdoutLine: {'line': b'[ 50%] Built target traj_publisher_reader\n'}
+[0.099195] (-) TimerEvent: {}
+[0.108045] (trajectory_op) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o\x1b[0m\n'}
+[0.199311] (-) TimerEvent: {}
+[0.299616] (-) TimerEvent: {}
+[0.399917] (-) TimerEvent: {}
+[0.500232] (-) TimerEvent: {}
+[0.600604] (-) TimerEvent: {}
+[0.700934] (-) TimerEvent: {}
+[0.801320] (-) TimerEvent: {}
+[0.901692] (-) TimerEvent: {}
+[1.002071] (-) TimerEvent: {}
+[1.102659] (-) TimerEvent: {}
+[1.203009] (-) TimerEvent: {}
+[1.303365] (-) TimerEvent: {}
+[1.403946] (-) TimerEvent: {}
+[1.504352] (-) TimerEvent: {}
+[1.604780] (-) TimerEvent: {}
+[1.705111] (-) TimerEvent: {}
+[1.805524] (-) TimerEvent: {}
+[1.905941] (-) TimerEvent: {}
+[2.006337] (-) TimerEvent: {}
+[2.106710] (-) TimerEvent: {}
+[2.207046] (-) TimerEvent: {}
+[2.307446] (-) TimerEvent: {}
+[2.408010] (-) TimerEvent: {}
+[2.508392] (-) TimerEvent: {}
+[2.608796] (-) TimerEvent: {}
+[2.709161] (-) TimerEvent: {}
+[2.809538] (-) TimerEvent: {}
+[2.909910] (-) TimerEvent: {}
+[3.010448] (-) TimerEvent: {}
+[3.110915] (-) TimerEvent: {}
+[3.211309] (-) TimerEvent: {}
+[3.311669] (-) TimerEvent: {}
+[3.412010] (-) TimerEvent: {}
+[3.512391] (-) TimerEvent: {}
+[3.612818] (-) TimerEvent: {}
+[3.713225] (-) TimerEvent: {}
+[3.813572] (-) TimerEvent: {}
+[3.913914] (-) TimerEvent: {}
+[4.014273] (-) TimerEvent: {}
+[4.114951] (-) TimerEvent: {}
+[4.215397] (-) TimerEvent: {}
+[4.316020] (-) TimerEvent: {}
+[4.416399] (-) TimerEvent: {}
+[4.516891] (-) TimerEvent: {}
+[4.617261] (-) TimerEvent: {}
+[4.717619] (-) TimerEvent: {}
+[4.817912] (-) TimerEvent: {}
+[4.918246] (-) TimerEvent: {}
+[5.018658] (-) TimerEvent: {}
+[5.119038] (-) TimerEvent: {}
+[5.219478] (-) TimerEvent: {}
+[5.319890] (-) TimerEvent: {}
+[5.420381] (-) TimerEvent: {}
+[5.520834] (-) TimerEvent: {}
+[5.621247] (-) TimerEvent: {}
+[5.721624] (-) TimerEvent: {}
+[5.822026] (-) TimerEvent: {}
+[5.922459] (-) TimerEvent: {}
+[6.022892] (-) TimerEvent: {}
+[6.123315] (-) TimerEvent: {}
+[6.223846] (-) TimerEvent: {}
+[6.324319] (-) TimerEvent: {}
+[6.424826] (-) TimerEvent: {}
+[6.525302] (-) TimerEvent: {}
+[6.625778] (-) TimerEvent: {}
+[6.726253] (-) TimerEvent: {}
+[6.826676] (-) TimerEvent: {}
+[6.927356] (-) TimerEvent: {}
+[7.027789] (-) TimerEvent: {}
+[7.128270] (-) TimerEvent: {}
+[7.228773] (-) TimerEvent: {}
+[7.329174] (-) TimerEvent: {}
+[7.429585] (-) TimerEvent: {}
+[7.529951] (-) TimerEvent: {}
+[7.630281] (-) TimerEvent: {}
+[7.730695] (-) TimerEvent: {}
+[7.831292] (-) TimerEvent: {}
+[7.931701] (-) TimerEvent: {}
+[8.032072] (-) TimerEvent: {}
+[8.132402] (-) TimerEvent: {}
+[8.232810] (-) TimerEvent: {}
+[8.333203] (-) TimerEvent: {}
+[8.433599] (-) TimerEvent: {}
+[8.534000] (-) TimerEvent: {}
+[8.634397] (-) TimerEvent: {}
+[8.734886] (-) TimerEvent: {}
+[8.835263] (-) TimerEvent: {}
+[8.863773] (trajectory_op) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable traj_publisher_saver\x1b[0m\n'}
+[8.935395] (-) TimerEvent: {}
+[9.035819] (-) TimerEvent: {}
+[9.136317] (-) TimerEvent: {}
+[9.236716] (-) TimerEvent: {}
+[9.337121] (-) TimerEvent: {}
+[9.360691] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::ostream_wrapper&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.360998] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x23): undefined reference to `YAML::ostream_wrapper::write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.361752] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `void YAML::Emitter::SetStreamablePrecision<double>(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&)':\n"}
+[9.361858] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[_ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE]+0x36): undefined reference to `YAML::Emitter::GetDoublePrecision() const'\n"}
+[9.362816] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::Emitter&, char const*)':\n"}
+[9.362948] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_7EmitterEPKc[_ZN4YAMLlsERNS_7EmitterEPKc]+0x56): undefined reference to `YAML::Emitter::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.365364] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::Emitter&, YAML::EMITTER_MANIP)':\n"}
+[9.365705] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE[_ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE]+0x20): undefined reference to `YAML::Emitter::SetLocalValue(YAML::EMITTER_MANIP)'\n"}
+[9.367346] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `traj_pub_Saver::saveMarkerArrayToYAML()':\n"}
+[9.367470] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x33): undefined reference to `YAML::Emitter::Emitter()'\n"}
+[9.368491] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x602): undefined reference to `YAML::Emitter::c_str() const'\n"}
+[9.369704] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x7d3): undefined reference to `YAML::Emitter::~Emitter()'\n"}
+[9.370539] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x879): undefined reference to `YAML::Emitter::~Emitter()'\n"}
+[9.372035] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteIntegralType<int>(int)':\n"}
+[9.372136] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x37): undefined reference to `YAML::Emitter::good() const'\n"}
+[9.372910] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x5e): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'\n"}
+[9.373703] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x86): undefined reference to `YAML::Emitter::PrepareIntegralStream(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&) const'\n"}
+[9.374677] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0xf5): undefined reference to `YAML::Emitter::StartedScalar()'\n"}
+[9.376107] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteStreamable<double>(double)':\n"}
+[9.376231] (trajectory_op) StderrLine: {'line': b"traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x39): undefined reference to `YAML::Emitter::good() const'\n"}
+[9.377024] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x60): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'\n"}
+[9.377780] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x1b8): undefined reference to `YAML::Emitter::StartedScalar()'\n"}
+[9.431341] (trajectory_op) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.433680] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:199: traj_publisher_saver] Error 1\n'}
+[9.434082] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_saver.dir/all] Error 2\n'}
+[9.434633] (trajectory_op) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.437256] (-) TimerEvent: {}
+[9.438281] (trajectory_op) CommandEnded: {'returncode': 2}
+[9.503078] (trajectory_op) JobEnded: {'identifier': 'trajectory_op', 'rc': 2}
+[9.513836] (-) EventReactorShutdown: {}

@@ -1,0 +1,58 @@
+[0.028s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[0.141s] [ 33%] Built target traj_publisher_reader
+[0.143s] [ 66%] Built target traj_client
+[0.158s] [100%] Built target traj_publisher_saver
+[0.179s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '0': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.284s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/anmol/anscer_task/build/trajectory_op
+[0.297s] -- Install configuration: ""
+[0.298s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_publisher_saver
+[0.298s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_publisher_reader
+[0.299s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_client
+[0.299s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/package_run_dependencies/trajectory_op
+[0.300s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/parent_prefix_path/trajectory_op
+[0.300s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.sh
+[0.300s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.dsv
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.bash
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.sh
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.zsh
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.dsv
+[0.301s] -- Installing: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.dsv
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/packages/trajectory_op
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig.cmake
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig-version.cmake
+[0.301s] -- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.xml
+[0.305s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '0': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/anmol/anscer_task/build/trajectory_op
+[0.372s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/asyncio/unix_events.py", line 504, in _read_ready
+    data = os.read(self._fileno, self.max_size)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--target', 'help'] to pass: 

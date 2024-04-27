@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000335] (trajectory_op) JobQueued: {'identifier': 'trajectory_op', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/anmol/anscer_task/install/tutorial_interfaces')])}
+[0.000449] (trajectory_op) JobStarted: {'identifier': 'trajectory_op'}
+[0.016366] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'cmake'}
+[0.017555] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'build'}
+[0.017774] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--', '-j12', '-l12'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1916,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1916'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85772b63_e744_417e_813d_c9f51757c1d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DMBUM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.079171] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_publisher_reader\x1b[0m\n'}
+[0.095348] (trajectory_op) StdoutLine: {'line': b'[ 33%] Built target traj_client\n'}
+[0.095817] (trajectory_op) StdoutLine: {'line': b'[ 66%] Built target traj_publisher_saver\n'}
+[0.099029] (-) TimerEvent: {}
+[0.108547] (trajectory_op) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o\x1b[0m\n'}
+[0.199186] (-) TimerEvent: {}
+[0.299647] (-) TimerEvent: {}
+[0.400076] (-) TimerEvent: {}
+[0.500506] (-) TimerEvent: {}
+[0.600885] (-) TimerEvent: {}
+[0.701300] (-) TimerEvent: {}
+[0.801729] (-) TimerEvent: {}
+[0.902097] (-) TimerEvent: {}
+[1.002478] (-) TimerEvent: {}
+[1.102864] (-) TimerEvent: {}
+[1.203226] (-) TimerEvent: {}
+[1.303614] (-) TimerEvent: {}
+[1.403979] (-) TimerEvent: {}
+[1.504355] (-) TimerEvent: {}
+[1.604715] (-) TimerEvent: {}
+[1.705092] (-) TimerEvent: {}
+[1.805467] (-) TimerEvent: {}
+[1.905850] (-) TimerEvent: {}
+[2.006238] (-) TimerEvent: {}
+[2.106624] (-) TimerEvent: {}
+[2.207006] (-) TimerEvent: {}
+[2.307410] (-) TimerEvent: {}
+[2.407766] (-) TimerEvent: {}
+[2.508088] (-) TimerEvent: {}
+[2.608466] (-) TimerEvent: {}
+[2.708844] (-) TimerEvent: {}
+[2.809233] (-) TimerEvent: {}
+[2.909641] (-) TimerEvent: {}
+[3.010006] (-) TimerEvent: {}
+[3.110332] (-) TimerEvent: {}
+[3.160962] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid traj_pub_Saver::yaml_reader()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.161458] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbegin(visualization_msgs::msg::MarkerArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.161595] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;31m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.161712] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.161823] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[3.161934] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[3.162043] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.162153] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:2\x1b[m\x1b[K:\n'}
+[3.162280] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.162393] (trajectory_op) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[3.162503] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.162613] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.162724] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.162840] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.162950] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.163060] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[3.163155] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[3.163205] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.163267] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:2\x1b[m\x1b[K:\n'}
+[3.163319] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.163388] (trajectory_op) StderrLine: {'line': b'   51 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.begin())\n'}
+[3.163443] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.163495] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.163547] (trajectory_op) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&) [with _Container = visualization_msgs::msg::MarkerArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.163600] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K   required from here\n'}
+[3.163651] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct visualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.163703] (trajectory_op) StderrLine: {'line': b'   51 |     begin(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[3.163754] (trajectory_op) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.163844] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.163908] (trajectory_op) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.begin())\n'}
+[3.163959] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.164010] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.164062] (trajectory_op) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&) [with _Container = visualization_msgs::msg::MarkerArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.164122] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K   required from here\n'}
+[3.164173] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct visualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.164234] (trajectory_op) StderrLine: {'line': b'   61 |     begin(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[3.164286] (trajectory_op) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.164337] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.164389] (trajectory_op) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[3.164440] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.164491] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.164542] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.164595] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.164646] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.164696] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.164748] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:6\x1b[m\x1b[K:\n'}
+[3.164799] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.164850] (trajectory_op) StderrLine: {'line': b' 1217 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(valarray<_Tp>& __va) noexcept\n'}
+[3.164900] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.164951] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.165016] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165070] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.165122] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.165175] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.165226] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:6\x1b[m\x1b[K:\n'}
+[3.165276] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1228:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165329] (trajectory_op) StderrLine: {'line': b' 1228 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>& __va) noexcept\n'}
+[3.165379] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.165429] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1228:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.165480] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165533] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.165586] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.165636] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kend(visualization_msgs::msg::MarkerArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165689] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[3.165740] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[3.165791] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.165842] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:2\x1b[m\x1b[K:\n'}
+[3.165893] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.165953] (trajectory_op) StderrLine: {'line': b'  101 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[3.166004] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.166054] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.166111] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.166180] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.166232] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.166289] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[3.166342] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[3.166393] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.166445] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:2\x1b[m\x1b[K:\n'}
+[3.166496] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.166548] (trajectory_op) StderrLine: {'line': b'   71 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.end())\n'}
+[3.166599] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.166650] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.166701] (trajectory_op) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&) [with _Container = visualization_msgs::msg::MarkerArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.166760] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K   required from here\n'}
+[3.166811] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct visualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.166864] (trajectory_op) StderrLine: {'line': b'   71 |     end(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[3.166914] (trajectory_op) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.166965] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167016] (trajectory_op) StderrLine: {'line': b'   81 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.end())\n'}
+[3.167067] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.167117] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.167172] (trajectory_op) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&) [with _Container = visualization_msgs::msg::MarkerArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.167231] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K   required from here\n'}
+[3.167282] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct visualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167334] (trajectory_op) StderrLine: {'line': b'   81 |     end(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[3.167395] (trajectory_op) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.167448] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:100:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167500] (trajectory_op) StderrLine: {'line': b'  100 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[3.167551] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.167602] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:100:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.167653] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167706] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.167757] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.167815] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.167866] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:6\x1b[m\x1b[K:\n'}
+[3.167922] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1239:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167979] (trajectory_op) StderrLine: {'line': b' 1239 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(valarray<_Tp>& __va) noexcept\n'}
+[3.168031] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.168081] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1239:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.168136] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168189] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.168246] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168298] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.168349] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:6\x1b[m\x1b[K:\n'}
+[3.168400] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1255:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168457] (trajectory_op) StderrLine: {'line': b' 1255 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>& __va) noexcept\n'}
+[3.168509] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.168559] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1255:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.168611] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168663] (trajectory_op) StderrLine: {'line': b'  115 |     for (const auto &marker_msg : \x1b[01;36m\x1b[Kmarker_array\x1b[m\x1b[K)\n'}
+[3.168714] (trajectory_op) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.210471] (-) TimerEvent: {}
+[3.311076] (-) TimerEvent: {}
+[3.411689] (-) TimerEvent: {}
+[3.512108] (-) TimerEvent: {}
+[3.612485] (-) TimerEvent: {}
+[3.712856] (-) TimerEvent: {}
+[3.813673] (-) TimerEvent: {}
+[3.914061] (-) TimerEvent: {}
+[4.014433] (-) TimerEvent: {}
+[4.114805] (-) TimerEvent: {}
+[4.141280] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:76: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o] Error 1\n'}
+[4.141685] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/traj_publisher_reader.dir/all] Error 2\n'}
+[4.142193] (trajectory_op) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.145868] (trajectory_op) CommandEnded: {'returncode': 2}
+[4.210823] (trajectory_op) JobEnded: {'identifier': 'trajectory_op', 'rc': 2}
+[4.215271] (-) TimerEvent: {}
+[4.221380] (-) EventReactorShutdown: {}

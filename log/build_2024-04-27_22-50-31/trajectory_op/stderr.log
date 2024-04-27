@@ -1,0 +1,4 @@
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::yaml_reader()[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_reader.cpp:115:12:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  115 |     while([01;35m[Ki!=marker_array.markers.size()[m[K)
+      |           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

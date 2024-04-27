@@ -1,0 +1,15 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_op/srv/Saver.hpp: No such file or directory
+   11 | #include [01;31m[K"trajectory_op/srv/Saver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/traj_publisher_Saver.dir/build.make:76: CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/traj_publisher_Saver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

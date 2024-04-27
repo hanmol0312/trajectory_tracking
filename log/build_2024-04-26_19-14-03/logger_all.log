@@ -1,0 +1,200 @@
+[0.169s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--allow-overriding', 'tutorial_interfaces']
+[0.169s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['tutorial_interfaces'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79a70f7685e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79a70f768070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79a70f768070>>)
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.429s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anmol/anscer_task'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_op) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_op' with type 'ros.ament_cmake' and name 'trajectory_op'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/anmol/service/install
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/anmol/anscer_task/install
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/anmol/project_ws/install
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/anmol/turtlebot_ws/install
+[0.507s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/anmol/anmol_ws/install
+[0.507s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/anmol/autonomous_iit/install
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/anmol/nav2_tutorials/install
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/anmol/ws_offboard_control/install
+[0.512s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 437 installed packages in /opt/ros/humble
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anmol/anscer_task/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anmol/anscer_task/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/anmol/anscer_task/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'trajectory_op' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_op' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anmol/anscer_task/build/trajectory_op', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anmol/anscer_task/install/trajectory_op', 'merge_install': False, 'path': '/home/anmol/anscer_task/src/trajectory_op', 'symlink_install': False, 'test_result_base': None}
+[0.586s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.588s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anmol/anscer_task/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anmol/anscer_task/src/tutorial_interfaces'
+[0.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anmol/anscer_task/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/tutorial_interfaces -- -j12 -l12
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anmol/anscer_task/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/tutorial_interfaces -- -j12 -l12
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anmol/anscer_task/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/anmol/anscer_task/build/tutorial_interfaces
+[1.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anmol/anscer_task/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/anmol/anscer_task/build/tutorial_interfaces
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces' for CMake module files
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces' for CMake config files
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib'
+[1.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/bin'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib/python3.10/site-packages'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/bin'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anmol/anscer_task/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces' for CMake module files
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces' for CMake config files
+[1.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib'
+[1.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/bin'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/lib/python3.10/site-packages'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/tutorial_interfaces/bin'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anmol/anscer_task/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.815s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anmol/anscer_task/src/trajectory_op' with build type 'ament_cmake'
+[1.815s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anmol/anscer_task/src/trajectory_op'
+[1.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/service/install/cpp_srvcli:/home/anmol/service/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/service/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[4.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '2': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/service/install/cpp_srvcli:/home/anmol/service/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/service/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[4.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_op)
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op' for CMake module files
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op' for CMake config files
+[4.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_op', 'cmake_prefix_path')
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/hook/cmake_prefix_path.ps1'
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/hook/cmake_prefix_path.dsv'
+[4.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/hook/cmake_prefix_path.sh'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op/lib'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op/bin'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op/lib/pkgconfig/trajectory_op.pc'
+[4.109s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op/lib/python3.10/site-packages'
+[4.109s] Level 1:colcon.colcon_core.environment:checking '/home/anmol/anscer_task/install/trajectory_op/bin'
+[4.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.ps1'
+[4.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.dsv'
+[4.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.sh'
+[4.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.bash'
+[4.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.zsh'
+[4.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anmol/anscer_task/install/trajectory_op/share/colcon-core/packages/trajectory_op)
+[4.122s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.122s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.123s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.130s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.145s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anmol/anscer_task/install/local_setup.ps1'
+[4.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anmol/anscer_task/install/_local_setup_util_ps1.py'
+[4.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anmol/anscer_task/install/setup.ps1'
+[4.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anmol/anscer_task/install/local_setup.sh'
+[4.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anmol/anscer_task/install/_local_setup_util_sh.py'
+[4.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anmol/anscer_task/install/setup.sh'
+[4.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anmol/anscer_task/install/local_setup.bash'
+[4.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anmol/anscer_task/install/setup.bash'
+[4.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anmol/anscer_task/install/local_setup.zsh'
+[4.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anmol/anscer_task/install/setup.zsh'

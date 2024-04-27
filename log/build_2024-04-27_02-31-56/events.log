@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000816] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000878] (trajectory_op) JobQueued: {'identifier': 'trajectory_op', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/anmol/anscer_task/install/tutorial_interfaces')])}
+[0.000926] (trajectory_op) JobStarted: {'identifier': 'trajectory_op'}
+[0.025994] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'cmake'}
+[0.026950] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'build'}
+[0.028011] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--', '-j12', '-l12'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/anscer_task/install:/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1811,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2baab02a_9b42_4599_af8c_a0606ed4dd8d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6CQXM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1380'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/trajectory_op:/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.099551] (-) TimerEvent: {}
+[0.124929] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_client\x1b[0m\n'}
+[0.155557] (trajectory_op) StdoutLine: {'line': b'[ 33%] Built target traj_publisher_reader\n'}
+[0.157422] (trajectory_op) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o\x1b[0m\n'}
+[0.165850] (trajectory_op) StdoutLine: {'line': b'[ 83%] Built target traj_client\n'}
+[0.199728] (-) TimerEvent: {}
+[0.300268] (-) TimerEvent: {}
+[0.400797] (-) TimerEvent: {}
+[0.501388] (-) TimerEvent: {}
+[0.602023] (-) TimerEvent: {}
+[0.702510] (-) TimerEvent: {}
+[0.803142] (-) TimerEvent: {}
+[0.903678] (-) TimerEvent: {}
+[1.004370] (-) TimerEvent: {}
+[1.104817] (-) TimerEvent: {}
+[1.205262] (-) TimerEvent: {}
+[1.305756] (-) TimerEvent: {}
+[1.406221] (-) TimerEvent: {}
+[1.506936] (-) TimerEvent: {}
+[1.607619] (-) TimerEvent: {}
+[1.708330] (-) TimerEvent: {}
+[1.808792] (-) TimerEvent: {}
+[1.909268] (-) TimerEvent: {}
+[2.009758] (-) TimerEvent: {}
+[2.110207] (-) TimerEvent: {}
+[2.210655] (-) TimerEvent: {}
+[2.311130] (-) TimerEvent: {}
+[2.411607] (-) TimerEvent: {}
+[2.512085] (-) TimerEvent: {}
+[2.612555] (-) TimerEvent: {}
+[2.713024] (-) TimerEvent: {}
+[2.813518] (-) TimerEvent: {}
+[2.913994] (-) TimerEvent: {}
+[3.014471] (-) TimerEvent: {}
+[3.114893] (-) TimerEvent: {}
+[3.215312] (-) TimerEvent: {}
+[3.315792] (-) TimerEvent: {}
+[3.416345] (-) TimerEvent: {}
+[3.516756] (-) TimerEvent: {}
+[3.617125] (-) TimerEvent: {}
+[3.717520] (-) TimerEvent: {}
+[3.817889] (-) TimerEvent: {}
+[3.918318] (-) TimerEvent: {}
+[4.018746] (-) TimerEvent: {}
+[4.119181] (-) TimerEvent: {}
+[4.219849] (-) TimerEvent: {}
+[4.320269] (-) TimerEvent: {}
+[4.420708] (-) TimerEvent: {}
+[4.521155] (-) TimerEvent: {}
+[4.621537] (-) TimerEvent: {}
+[4.721923] (-) TimerEvent: {}
+[4.822312] (-) TimerEvent: {}
+[4.922735] (-) TimerEvent: {}
+[5.023335] (-) TimerEvent: {}
+[5.123969] (-) TimerEvent: {}
+[5.224636] (-) TimerEvent: {}
+[5.325070] (-) TimerEvent: {}
+[5.425720] (-) TimerEvent: {}
+[5.526152] (-) TimerEvent: {}
+[5.626597] (-) TimerEvent: {}
+[5.727031] (-) TimerEvent: {}
+[5.827460] (-) TimerEvent: {}
+[5.927894] (-) TimerEvent: {}
+[6.028322] (-) TimerEvent: {}
+[6.128751] (-) TimerEvent: {}
+[6.229182] (-) TimerEvent: {}
+[6.329640] (-) TimerEvent: {}
+[6.430071] (-) TimerEvent: {}
+[6.530507] (-) TimerEvent: {}
+[6.630940] (-) TimerEvent: {}
+[6.731372] (-) TimerEvent: {}
+[6.832112] (-) TimerEvent: {}
+[6.932562] (-) TimerEvent: {}
+[7.033028] (-) TimerEvent: {}
+[7.133564] (-) TimerEvent: {}
+[7.234028] (-) TimerEvent: {}
+[7.334452] (-) TimerEvent: {}
+[7.434878] (-) TimerEvent: {}
+[7.535586] (-) TimerEvent: {}
+[7.636009] (-) TimerEvent: {}
+[7.736620] (-) TimerEvent: {}
+[7.837362] (-) TimerEvent: {}
+[7.937864] (-) TimerEvent: {}
+[8.038343] (-) TimerEvent: {}
+[8.138845] (-) TimerEvent: {}
+[8.239324] (-) TimerEvent: {}
+[8.339804] (-) TimerEvent: {}
+[8.440274] (-) TimerEvent: {}
+[8.540729] (-) TimerEvent: {}
+[8.641260] (-) TimerEvent: {}
+[8.742025] (-) TimerEvent: {}
+[8.842486] (-) TimerEvent: {}
+[8.942920] (-) TimerEvent: {}
+[9.043387] (-) TimerEvent: {}
+[9.143821] (-) TimerEvent: {}
+[9.244255] (-) TimerEvent: {}
+[9.344687] (-) TimerEvent: {}
+[9.445299] (-) TimerEvent: {}
+[9.545764] (-) TimerEvent: {}
+[9.646192] (-) TimerEvent: {}
+[9.746633] (-) TimerEvent: {}
+[9.847077] (-) TimerEvent: {}
+[9.947504] (-) TimerEvent: {}
+[10.047934] (-) TimerEvent: {}
+[10.148367] (-) TimerEvent: {}
+[10.248800] (-) TimerEvent: {}
+[10.349235] (-) TimerEvent: {}
+[10.449743] (-) TimerEvent: {}
+[10.550230] (-) TimerEvent: {}
+[10.650727] (-) TimerEvent: {}
+[10.751216] (-) TimerEvent: {}
+[10.851647] (-) TimerEvent: {}
+[10.922204] (trajectory_op) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable traj_publisher_saver\x1b[0m\n'}
+[10.951798] (-) TimerEvent: {}
+[11.052293] (-) TimerEvent: {}
+[11.152858] (-) TimerEvent: {}
+[11.253348] (-) TimerEvent: {}
+[11.353716] (-) TimerEvent: {}
+[11.454091] (-) TimerEvent: {}
+[11.521350] (trajectory_op) StdoutLine: {'line': b'[100%] Built target traj_publisher_saver\n'}
+[11.537324] (trajectory_op) CommandEnded: {'returncode': 0}
+[11.554205] (-) TimerEvent: {}
+[11.605029] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'install'}
+[11.618156] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anmol/anscer_task/build/trajectory_op'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/anscer_task/install:/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1811,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2baab02a_9b42_4599_af8c_a0606ed4dd8d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6CQXM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1380'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/trajectory_op:/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[11.628431] (trajectory_op) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.628827] (trajectory_op) StdoutLine: {'line': b'-- Installing: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_publisher_saver\n'}
+[11.637535] (trajectory_op) StdoutLine: {'line': b'-- Set runtime path of "/home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_publisher_saver" to ""\n'}
+[11.637707] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_publisher_reader\n'}
+[11.637826] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/traj_client\n'}
+[11.637980] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/package_run_dependencies/trajectory_op\n'}
+[11.638072] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/parent_prefix_path/trajectory_op\n'}
+[11.638178] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.sh\n'}
+[11.638287] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.dsv\n'}
+[11.638380] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.sh\n'}
+[11.638433] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.dsv\n'}
+[11.638496] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.bash\n'}
+[11.638602] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.sh\n'}
+[11.638685] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.zsh\n'}
+[11.638738] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.dsv\n'}
+[11.638789] (trajectory_op) StdoutLine: {'line': b'-- Installing: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.dsv\n'}
+[11.638841] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/packages/trajectory_op\n'}
+[11.638893] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig.cmake\n'}
+[11.638945] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig-version.cmake\n'}
+[11.638997] (trajectory_op) StdoutLine: {'line': b'-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.xml\n'}
+[11.641014] (trajectory_op) CommandEnded: {'returncode': 0}
+[11.654331] (-) TimerEvent: {}
+[11.718110] (trajectory_op) JobEnded: {'identifier': 'trajectory_op', 'rc': 0}
+[11.718756] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:158:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+  158 | int [01;31m[Kmain[m[K(int argc, char * argv[])
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:122:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+  122 | int [01;36m[Kmain[m[K(int argc, char * argv[])
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:76: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_saver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[ 66%] Built target traj_client
+[ 66%] Built target traj_publisher_reader
+[ 83%] [32mBuilding CXX object CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o[0m
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::server(std::shared_ptr<tutorial_interfaces::srv::Saver_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Saver_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:49:112:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’} to ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+   49 | arker=filterMarkersWithinDuration(marker_array,std::chrono::[01;31m[Kseconds(duration)[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                             [01;31m[K|[m[K
+      |                                                             [01;31m[Kstd::chrono::seconds {aka std::chrono::duration<long int>}[m[K
+
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:57:132:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvisualization_msgs::msg::MarkerArray traj_pub_Saver::filterMarkersWithinDuration(const MarkerArray&, int64_t)[m[K’
+   57 | t visualization_msgs::msg::MarkerArray& marker_array, [01;36m[Kint64_t duration[m[K)
+      |                                                       [01;36m[K~~~~~~~~^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:76: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/traj_publisher_saver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

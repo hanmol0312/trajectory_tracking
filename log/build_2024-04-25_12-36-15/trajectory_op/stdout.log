@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_saver_node.dir/src/traj_pub_saver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub_saver_node[0m
+[100%] Built target pub_saver_node
+-- Install configuration: ""
+-- Installing: /home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/pub_saver_node
+-- Set runtime path of "/home/anmol/anscer_task/install/trajectory_op/lib/trajectory_op/pub_saver_node" to ""
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/package_run_dependencies/trajectory_op
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/parent_prefix_path/trajectory_op
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.sh
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.sh
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/environment/path.dsv
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.bash
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.sh
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.zsh
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/local_setup.dsv
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.dsv
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/ament_index/resource_index/packages/trajectory_op
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig.cmake
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/cmake/trajectory_opConfig-version.cmake
+-- Up-to-date: /home/anmol/anscer_task/install/trajectory_op/share/trajectory_op/package.xml

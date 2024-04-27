@@ -1,0 +1,12 @@
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/uninstall.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/trajectory_op_uninstall.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/traj_publisher_saver.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/traj_publisher_reader.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/traj_client.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/test.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/edit_cache.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/rebuild_cache.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/list_install_components.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/install.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/install/local.dir
+/home/anmol/anscer_task/build/trajectory_op/CMakeFiles/install/strip.dir

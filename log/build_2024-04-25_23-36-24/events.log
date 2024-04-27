@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (-) JobUnselected: {'identifier': 'trajectory_op'}
+[0.000654] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001123] (-) EventReactorShutdown: {}

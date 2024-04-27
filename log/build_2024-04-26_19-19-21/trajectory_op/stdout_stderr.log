@@ -1,0 +1,89 @@
+[35m[1mConsolidate compiler generated dependencies of target traj_publisher_Saver[0m
+[ 25%] [32m[1mLinking CXX executable traj_publisher_reader[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   28 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:91:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry[m[K’ in namespace ‘[01m[Knav_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KOdometry[m[K’?
+   91 |     void traj_callback(const nav_msgs::msg::[01;31m[Kodometry[m[K & msg) const
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[KOdometry[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’; did you mean ‘[01m[KOdometry[m[K’?
+  105 |     rclcpp::Subscription<nav_msgs::msg::[01;31m[Kodometry[m[K>::SharedPtr traj_subscription_;
+      |                                         [01;31m[K^~~~~~~~[m[K
+      |                                         [32m[KOdometry[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  105 |     rclcpp::Subscription<nav_msgs::msg::odometry[01;31m[K>[m[K::SharedPtr traj_subscription_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  105 |     rclcpp::Subscription<nav_msgs::msg::odometry>::[01;31m[KSharedPtr[m[K traj_subscription_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:105:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+  105 |     rclcpp::Subscription<nav_msgs::msg::odometry>::SharedPtr [01;31m[Ktraj_subscription_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                              [32m[Krmw_subscription_t[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:106:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  106 |     [01;31m[Kauto[m[K marker=visualization_msgs::msg::marker();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:107:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  107 |     [01;31m[Kauto[m[K marker_array=visualization_msgs::msg::markerarray();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In constructor ‘[01m[Ktraj_pub_Saver::traj_pub_Saver()[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   25 |       [01;31m[Ktraj_subscription_[m[K = this->create_subscription<nav_msgs::msg::odometry>(
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:25:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’; did you mean ‘[01m[KOdometry[m[K’?
+   25 |       traj_subscription_ = this->create_subscription<nav_msgs::msg::[01;31m[Kodometry[m[K>(
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+      |                                                                     [32m[KOdometry[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:26:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   26 |       "/odom", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::traj_callback, this, _1));
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:26:71:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   26 |       "/odom", 10, std::bind(&MinimalSubscriber::traj_callback, this, [01;31m[K_1[m[K));
+      |                                                                       [01;31m[K^~[m[K
+      |                                                                       [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::server(std::shared_ptr<tutorial_interfaces::srv::Saver_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Saver_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:35:46:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Ktutorial_interfaces::srv::Saver_Request_<std::allocator<void> >::_duration_type[m[K’ {aka ‘[01m[Klong int[m[K’} to non-scalar type ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’} requested
+   35 |       std::chrono::seconds duration=[01;31m[Krequest->duration[m[K;
+      |                                     [01;31m[K~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6[m[K:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::traj_callback(const int&) const[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:94:63:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   94 |       RCLCPP_INFO(this->get_logger(),"Got_position_x:'%s",msg.[01;31m[Kpose[m[K.pose.position.x.c_str());
+      |                                                               [01;31m[K^~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:95:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   95 |       marker.header=msg.[01;31m[Kheader[m[K;
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:99:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpose[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   99 |       marker.pose= msg.[01;31m[Kpose[m[K;
+      |                        [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/traj_publisher_Saver.dir/build.make:76: CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_Saver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

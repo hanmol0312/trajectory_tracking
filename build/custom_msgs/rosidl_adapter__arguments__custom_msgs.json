@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/anmol/anscer_task/src/custom_msgs:srv/saver.srv"
+  ]
+}

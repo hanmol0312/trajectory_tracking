@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target traj_publisher_reader[0m
+[ 66%] Built target traj_client
+[ 66%] Built target traj_publisher_saver
+[ 83%] [32mBuilding CXX object CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable traj_publisher_reader[0m
+/usr/bin/ld: cannot find -ltf2_ros: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:231: traj_publisher_reader] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

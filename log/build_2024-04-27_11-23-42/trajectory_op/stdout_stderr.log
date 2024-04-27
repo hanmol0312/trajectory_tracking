@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o[0m
+[ 50%] Built target traj_client
+[ 83%] Built target traj_publisher_saver
+[100%] [32m[1mLinking CXX executable traj_publisher_reader[0m
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `YAML::operator<<(YAML::ostream_wrapper&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+traj_pub_reader.cpp:(.text._ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x23): undefined reference to `YAML::ostream_wrapper::write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `void YAML::Emitter::SetStreamablePrecision<double>(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&)':
+traj_pub_reader.cpp:(.text._ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[_ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE]+0x36): undefined reference to `YAML::Emitter::GetDoublePrecision() const'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `YAML::operator<<(YAML::Emitter&, char const*)':
+traj_pub_reader.cpp:(.text._ZN4YAMLlsERNS_7EmitterEPKc[_ZN4YAMLlsERNS_7EmitterEPKc]+0x56): undefined reference to `YAML::Emitter::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `YAML::operator<<(YAML::Emitter&, YAML::EMITTER_MANIP)':
+traj_pub_reader.cpp:(.text._ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE[_ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE]+0x20): undefined reference to `YAML::Emitter::SetLocalValue(YAML::EMITTER_MANIP)'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `traj_pub_Saver::saveMarkerArrayToYAML(visualization_msgs::msg::MarkerArray_<std::allocator<void> >&)':
+traj_pub_reader.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE]+0x3a): undefined reference to `YAML::Emitter::Emitter()'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE]+0x603): undefined reference to `YAML::Emitter::c_str() const'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE]+0x7d4): undefined reference to `YAML::Emitter::~Emitter()'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLERN18visualization_msgs3msg12MarkerArray_ISaIvEEE]+0x87a): undefined reference to `YAML::Emitter::~Emitter()'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteIntegralType<int>(int)':
+traj_pub_reader.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x37): undefined reference to `YAML::Emitter::good() const'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x5e): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x86): undefined reference to `YAML::Emitter::PrepareIntegralStream(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&) const'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0xf5): undefined reference to `YAML::Emitter::StartedScalar()'
+/usr/bin/ld: CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteStreamable<double>(double)':
+traj_pub_reader.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x39): undefined reference to `YAML::Emitter::good() const'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x60): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'
+/usr/bin/ld: traj_pub_reader.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x1b8): undefined reference to `YAML::Emitter::StartedScalar()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

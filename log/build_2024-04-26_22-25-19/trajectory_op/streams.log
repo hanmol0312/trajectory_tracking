@@ -1,0 +1,83 @@
+[0.019s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': AMENT_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_Saver[0m
+[0.094s] [ 25%] [32m[1mLinking CXX executable traj_publisher_reader[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o[0m
+[0.193s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.193s] (.text+0x1b): undefined reference to `main'
+[0.195s] collect2: error: ld returned 1 exit status
+[0.197s] gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1
+[0.198s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+[0.198s] gmake[1]: *** Waiting for unfinished jobs....
+[2.694s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::traj_callback(const Odometry&)[m[K’:
+[2.694s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(int)[m[K’
+[2.694s]   109 |     marker.lifetime = rclcpp::Duration(0[01;31m[K)[m[K; // Set the lifetime to 0 for a persistent marker
+[2.694s]       |                                         [01;31m[K^[m[K
+[2.694s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.695s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:7[m[K:
+[2.695s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[2.695s]    48 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+[2.695s]       |   [01;36m[K^~~~~~~~[m[K
+[2.696s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.696s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[2.696s]   109 |     marker.lifetime = rclcpp::Duration(0[01;36m[K)[m[K; // Set the lifetime to 0 for a persistent marker
+[2.696s]       |                                         [01;36m[K^[m[K
+[2.696s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.696s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:7[m[K:
+[2.696s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration()[m[K’
+[2.696s]   151 |   [01;36m[KDuration[m[K() = default;
+[2.697s]       |   [01;36m[K^~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+[2.697s]    61 |   [01;36m[KDuration[m[K(const Duration & rhs);
+[2.697s]       |   [01;36m[K^~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[2.697s]    61 |   Duration([01;36m[Kconst Duration & rhs[m[K);
+[2.697s]       |            [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+[2.697s]    59 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+[2.697s]       |            [01;36m[K^~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rcl_duration_t&[m[K’ {aka ‘[01m[Kconst rcl_duration_s&[m[K’}
+[2.697s]    59 |   explicit Duration([01;36m[Kconst rcl_duration_t & duration[m[K);
+[2.697s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+[2.697s]    53 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+[2.697s]       |   [01;36m[K^~~~~~~~[m[K
+[2.697s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Duration&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’}
+[2.697s]    53 |   Duration([01;36m[Kconst builtin_interfaces::msg::Duration & duration_msg[m[K);  // NOLINT(runtime/explicit)
+[2.698s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.698s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+[2.698s]    42 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+[2.698s]       |            [01;36m[K^~~~~~~~[m[K
+[2.698s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+[2.698s]    42 |   explicit Duration([01;36m[Kstd::chrono::nanoseconds nanoseconds[m[K);
+[2.698s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.698s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+[2.698s]    39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+[2.698s]       |   [01;36m[K^~~~~~~~[m[K
+[2.698s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[4.833s] gmake[2]: *** [CMakeFiles/traj_publisher_Saver.dir/build.make:76: CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o] Error 1
+[4.834s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_Saver.dir/all] Error 2
+[4.834s] gmake: *** [Makefile:146: all] Error 2
+[4.838s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '2': AMENT_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12

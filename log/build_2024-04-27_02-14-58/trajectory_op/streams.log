@@ -1,0 +1,38 @@
+[0.034s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.102s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.396s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.795s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.019s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.191s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.487s] -- Found tutorial_interfaces: 0.0.0 (/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.579s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.687s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.688s] -- Configured cppcheck include dirs: 
+[1.688s] -- Configured cppcheck exclude dirs and/or files: 
+[1.688s] -- Added test 'lint_cmake' to check CMake code style
+[1.690s] -- Added test 'uncrustify' to check C / C++ code style
+[1.690s] -- Configured uncrustify additional arguments: 
+[1.690s] -- Added test 'xmllint' to check XML markup files
+[1.692s] -- Configuring done
+[1.725s] -- Generating done
+[1.727s] -- Build files have been written to: /home/anmol/anscer_task/build/trajectory_op
+[1.779s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_reader[0m
+[1.779s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[1.799s] [ 16%] [32mBuilding CXX object CMakeFiles/traj_client.dir/src/traj_client.cpp.o[0m
+[1.814s] [ 50%] Built target traj_publisher_reader
+[1.817s] [ 83%] Built target traj_publisher_saver
+[2.271s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/Saver.hpp: No such file or directory
+[2.271s]     2 | #include [01;31m[K"tutorial_interfaces/srv/Saver.hpp"[m[K
+[2.271s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.271s] compilation terminated.
+[2.277s] gmake[2]: *** [CMakeFiles/traj_client.dir/build.make:76: CMakeFiles/traj_client.dir/src/traj_client.cpp.o] Error 1
+[2.278s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/traj_client.dir/all] Error 2
+[2.278s] gmake: *** [Makefile:146: all] Error 2
+[2.285s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '2': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12

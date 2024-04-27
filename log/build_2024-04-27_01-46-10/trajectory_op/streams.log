@@ -1,0 +1,57 @@
+[0.028s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.103s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.370s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.492s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.495s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.992s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.220s] -- Found tutorial_interfaces: 0.0.0 (/home/anmol/anscer_task/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.285s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.382s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.382s] -- Configured cppcheck include dirs: 
+[1.382s] -- Configured cppcheck exclude dirs and/or files: 
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'uncrustify' to check C / C++ code style
+[1.384s] -- Configured uncrustify additional arguments: 
+[1.384s] -- Added test 'xmllint' to check XML markup files
+[1.386s] -- Configuring done
+[1.413s] -- Generating done
+[1.416s] -- Build files have been written to: /home/anmol/anscer_task/build/trajectory_op
+[1.462s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_reader[0m
+[1.462s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[1.502s] [ 50%] Built target traj_publisher_reader
+[1.505s] [ 75%] [32mBuilding CXX object CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o[0m
+[13.030s] [100%] [32m[1mLinking CXX executable traj_publisher_saver[0m
+[13.775s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::ostream_wrapper&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[13.775s] traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAMLlsERNS_15ostream_wrapperERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x23): undefined reference to `YAML::ostream_wrapper::write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[13.776s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `void YAML::Emitter::SetStreamablePrecision<double>(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&)':
+[13.776s] traj_pub_saver.cpp:(.text._ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE[_ZN4YAML7Emitter22SetStreamablePrecisionIdEEvRNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE]+0x36): undefined reference to `YAML::Emitter::GetDoublePrecision() const'
+[13.777s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::Emitter&, char const*)':
+[13.778s] traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_7EmitterEPKc[_ZN4YAMLlsERNS_7EmitterEPKc]+0x56): undefined reference to `YAML::Emitter::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[13.779s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::operator<<(YAML::Emitter&, YAML::EMITTER_MANIP)':
+[13.779s] traj_pub_saver.cpp:(.text._ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE[_ZN4YAMLlsERNS_7EmitterENS_13EMITTER_MANIPE]+0x20): undefined reference to `YAML::Emitter::SetLocalValue(YAML::EMITTER_MANIP)'
+[13.781s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `traj_pub_Saver::saveMarkerArrayToYAML()':
+[13.781s] traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x33): undefined reference to `YAML::Emitter::Emitter()'
+[13.782s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x602): undefined reference to `YAML::Emitter::c_str() const'
+[13.783s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x7d3): undefined reference to `YAML::Emitter::~Emitter()'
+[13.785s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv[_ZN14traj_pub_Saver21saveMarkerArrayToYAMLEv]+0x879): undefined reference to `YAML::Emitter::~Emitter()'
+[13.790s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteIntegralType<int>(int)':
+[13.790s] traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x37): undefined reference to `YAML::Emitter::good() const'
+[13.792s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x5e): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'
+[13.794s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0x86): undefined reference to `YAML::Emitter::PrepareIntegralStream(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >&) const'
+[13.795s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_[_ZN4YAML7Emitter17WriteIntegralTypeIiEERS0_T_]+0xf5): undefined reference to `YAML::Emitter::StartedScalar()'
+[13.797s] /usr/bin/ld: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o: in function `YAML::Emitter& YAML::Emitter::WriteStreamable<double>(double)':
+[13.797s] traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x39): undefined reference to `YAML::Emitter::good() const'
+[13.798s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x60): undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'
+[13.799s] /usr/bin/ld: traj_pub_saver.cpp:(.text._ZN4YAML7Emitter15WriteStreamableIdEERS0_T_[_ZN4YAML7Emitter15WriteStreamableIdEERS0_T_]+0x1b8): undefined reference to `YAML::Emitter::StartedScalar()'
+[13.864s] collect2: error: ld returned 1 exit status
+[13.866s] gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:199: traj_publisher_saver] Error 1
+[13.866s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_saver.dir/all] Error 2
+[13.867s] gmake: *** [Makefile:146: all] Error 2
+[13.871s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '2': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12

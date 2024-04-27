@@ -1,0 +1,163 @@
+[0.033s] Invoking command in '/home/anmol/anscer_task/build/trajectory_op': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/service/install/cpp_srvcli:/home/anmol/service/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/service/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target traj_publisher_Saver[0m
+[0.158s] [ 25%] [32m[1mLinking CXX executable traj_publisher_reader[0m
+[0.178s] [ 50%] [32mBuilding CXX object CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o[0m
+[0.323s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.323s] (.text+0x1b): undefined reference to `main'
+[0.328s] collect2: error: ld returned 1 exit status
+[0.334s] gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1
+[0.334s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+[0.334s] gmake[1]: *** Waiting for unfinished jobs....
+[3.329s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::traj_callback(const Odometry&) const[m[K’:
+[3.329s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:99:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[3.329s]    99 |     marker.header = msg[01;31m[K->[m[Kheader;
+[3.329s]       |                        [01;31m[K^~[m[K
+[3.330s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:100:17:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst _ns_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kconst char [8][m[K’)
+[3.331s]   100 |     marker.ns = [01;31m[K"Tracker"[m[K;
+[3.331s]       |                 [01;31m[K^~~~~~~~~[m[K
+[3.332s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.332s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:4[m[K:
+[3.332s] [01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[3.332s]   799 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[3.332s]       |        [01;36m[K^~~~~~~~[m[K
+[3.332s] [01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.332s] In file included from [01m[K/usr/include/c++/11/ratio:39[m[K,
+[3.332s]                  from [01m[K/usr/include/c++/11/chrono:39[m[K,
+[3.332s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:1[m[K:
+[3.333s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::__cxx11::basic_string<char>&][m[K’:
+[3.333s] [01m[K/usr/include/c++/11/bits/basic_string.h:125:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = char [8]; _Res = std::__cxx11::basic_string<char>&; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[3.333s] [01m[K/usr/include/c++/11/bits/basic_string.h:799:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<char>::_If_sv<_Tp, std::__cxx11::basic_string<char>&> std::__cxx11::basic_string<char>::operator=<_Tp>(const _Tp&) [with _Tp = char [8]][m[K’
+[3.333s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:100:17:[m[K   required from here
+[3.333s] [01m[K/usr/include/c++/11/type_traits:2579:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::__cxx11::basic_string<char>&>[m[K’
+[3.333s]  2579 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[3.333s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[3.333s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.333s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:4[m[K:
+[3.333s] [01m[K/usr/include/c++/11/bits/basic_string.h:679:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+[3.333s]   679 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[3.333s]       |       [01;36m[K^~~~~~~~[m[K
+[3.334s] [01m[K/usr/include/c++/11/bits/basic_string.h:679:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst _ns_type*[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.334s] [01m[K/usr/include/c++/11/bits/basic_string.h:689:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+[3.334s]   689 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[3.334s]       |       [01;36m[K^~~~~~~~[m[K
+[3.334s] [01m[K/usr/include/c++/11/bits/basic_string.h:689:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst _ns_type*[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.334s] [01m[K/usr/include/c++/11/bits/basic_string.h:700:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+[3.334s]   700 |       [01;36m[Koperator[m[K=(_CharT __c)
+[3.334s]       |       [01;36m[K^~~~~~~~[m[K
+[3.334s] [01m[K/usr/include/c++/11/bits/basic_string.h:700:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[3.334s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:100:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.334s]   100 |     marker.ns = [01;31m[K"Tracker"[m[K;
+[3.334s]       |                 [01;31m[K^~~~~~~~~[m[K
+[3.334s]       |                 [01;31m[K|[m[K
+[3.335s]       |                 [01;31m[Kconst char*[m[K
+[3.335s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.335s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:4[m[K:
+[3.335s] [01m[K/usr/include/c++/11/bits/basic_string.h:717:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (near match)
+[3.335s]   717 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[3.335s]       |       [01;36m[K^~~~~~~~[m[K
+[3.335s] [01m[K/usr/include/c++/11/bits/basic_string.h:717:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst _ns_type*[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.335s] [01m[K/usr/include/c++/11/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[3.335s]   785 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[3.335s]       |       [01;36m[K^~~~~~~~[m[K
+[3.335s] [01m[K/usr/include/c++/11/bits/basic_string.h:785:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[3.335s]   785 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[3.335s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.336s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:101:17:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::type[m[K’ in read-only object
+[3.336s]   101 |     [01;31m[Kmarker.type = visualization_msgs::msg::Marker::POINTS[m[K;
+[3.336s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.336s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:102:19:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::action[m[K’ in read-only object
+[3.336s]   102 |     [01;31m[Kmarker.action = visualization_msgs::msg::Marker::ADD[m[K;
+[3.336s]       |     [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.336s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:103:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+[3.336s]   103 |     marker.pose = msg[01;31m[K->[m[Kpose.pose; // Assuming pose is a geometry_msgs::msg::Pose inside Odometry
+[3.336s]       |                      [01;31m[K^~[m[K
+[3.336s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:104:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(int)[m[K’
+[3.336s]   104 |     marker.lifetime = rclcpp::Duration(0[01;31m[K)[m[K; // Set the lifetime to 0 for a persistent marker
+[3.336s]       |                                         [01;31m[K^[m[K
+[3.337s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.337s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6[m[K:
+[3.337s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[3.338s]    48 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+[3.338s]       |   [01;36m[K^~~~~~~~[m[K
+[3.338s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.338s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:104:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[3.338s]   104 |     marker.lifetime = rclcpp::Duration(0[01;36m[K)[m[K; // Set the lifetime to 0 for a persistent marker
+[3.338s]       |                                         [01;36m[K^[m[K
+[3.338s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.339s]                  from [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6[m[K:
+[3.339s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration()[m[K’
+[3.339s]   151 |   [01;36m[KDuration[m[K() = default;
+[3.339s]       |   [01;36m[K^~~~~~~~[m[K
+[3.339s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.339s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+[3.339s]    61 |   [01;36m[KDuration[m[K(const Duration & rhs);
+[3.340s]       |   [01;36m[K^~~~~~~~[m[K
+[3.340s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[3.340s]    61 |   Duration([01;36m[Kconst Duration & rhs[m[K);
+[3.340s]       |            [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[3.340s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+[3.340s]    59 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+[3.340s]       |            [01;36m[K^~~~~~~~[m[K
+[3.340s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rcl_duration_t&[m[K’ {aka ‘[01m[Kconst rcl_duration_s&[m[K’}
+[3.340s]    59 |   explicit Duration([01;36m[Kconst rcl_duration_t & duration[m[K);
+[3.340s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.340s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+[3.340s]    53 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+[3.340s]       |   [01;36m[K^~~~~~~~[m[K
+[3.340s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Duration&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’}
+[3.341s]    53 |   Duration([01;36m[Kconst builtin_interfaces::msg::Duration & duration_msg[m[K);  // NOLINT(runtime/explicit)
+[3.341s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.341s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+[3.341s]    42 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+[3.341s]       |            [01;36m[K^~~~~~~~[m[K
+[3.341s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+[3.341s]    42 |   explicit Duration([01;36m[Kstd::chrono::nanoseconds nanoseconds[m[K);
+[3.341s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.341s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+[3.341s]    39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+[3.341s]       |   [01;36m[K^~~~~~~~[m[K
+[3.342s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.342s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:108:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’ in read-only object
+[3.342s]   108 |     [01;31m[Kmarker.scale.x = 0.1[m[K;
+[3.342s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[3.342s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::y[m[K’ in read-only object
+[3.342s]   109 |     [01;31m[Kmarker.scale.y = 0.1[m[K;
+[3.342s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[3.342s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:110:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >::r[m[K’ in read-only object
+[3.342s]   110 |     [01;31m[Kmarker.color.r = 1.0[m[K;
+[3.342s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[3.342s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:111:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >::g[m[K’ in read-only object
+[3.342s]   111 |     [01;31m[Kmarker.color.g = 0.0[m[K;
+[3.342s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[3.342s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:112:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >::b[m[K’ in read-only object
+[3.343s]   112 |     [01;31m[Kmarker.color.b = 0.0[m[K;
+[3.343s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[3.343s] [01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:113:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >::a[m[K’ in read-only object
+[3.343s]   113 |     [01;31m[Kmarker.color.a = 1.0[m[K;
+[3.343s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[6.129s] gmake[2]: *** [CMakeFiles/traj_publisher_Saver.dir/build.make:76: CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o] Error 1
+[6.129s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_Saver.dir/all] Error 2
+[6.130s] gmake: *** [Makefile:146: all] Error 2
+[6.134s] Invoked command in '/home/anmol/anscer_task/build/trajectory_op' returned '2': CMAKE_PREFIX_PATH=/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/service/install/cpp_srvcli:/home/anmol/service/install/tutorial_interfaces:/home/anmol/anscer_task/install/trajectory_op:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/service/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anmol/anscer_task/build/trajectory_op -- -j12 -l12

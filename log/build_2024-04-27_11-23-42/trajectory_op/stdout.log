@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target traj_publisher_saver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/traj_publisher_reader.dir/src/traj_pub_reader.cpp.o[0m
+[ 50%] Built target traj_client
+[ 83%] Built target traj_publisher_saver
+[100%] [32m[1mLinking CXX executable traj_publisher_reader[0m

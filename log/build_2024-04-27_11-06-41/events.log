@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.001097] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001589] (trajectory_op) JobQueued: {'identifier': 'trajectory_op', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/anmol/anscer_task/install/tutorial_interfaces')])}
+[0.001659] (trajectory_op) JobStarted: {'identifier': 'trajectory_op'}
+[0.025638] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'cmake'}
+[0.026611] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'build'}
+[0.027713] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--', '-j12', '-l12'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1841'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1810,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1810'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff71e2d6_a95c_4cc8_8ffe_ff44320551df'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.88SIM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.099536] (-) TimerEvent: {}
+[0.115370] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_publisher_reader\x1b[0m\n'}
+[0.118950] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_publisher_saver\x1b[0m\n'}
+[0.143893] (trajectory_op) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable traj_publisher_reader\x1b[0m\n'}
+[0.145822] (trajectory_op) StdoutLine: {'line': b'[ 50%] Built target traj_client\n'}
+[0.163390] (trajectory_op) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o\x1b[0m\n'}
+[0.199714] (-) TimerEvent: {}
+[0.292719] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.293175] (trajectory_op) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.296841] (trajectory_op) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.300021] (-) TimerEvent: {}
+[0.300392] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1\n'}
+[0.300720] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/traj_publisher_reader.dir/all] Error 2\n'}
+[0.300836] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.400207] (-) TimerEvent: {}
+[0.500859] (-) TimerEvent: {}
+[0.601406] (-) TimerEvent: {}
+[0.701933] (-) TimerEvent: {}
+[0.802468] (-) TimerEvent: {}
+[0.902996] (-) TimerEvent: {}
+[1.003514] (-) TimerEvent: {}
+[1.104034] (-) TimerEvent: {}
+[1.204773] (-) TimerEvent: {}
+[1.305590] (-) TimerEvent: {}
+[1.406349] (-) TimerEvent: {}
+[1.506884] (-) TimerEvent: {}
+[1.607443] (-) TimerEvent: {}
+[1.707973] (-) TimerEvent: {}
+[1.808492] (-) TimerEvent: {}
+[1.909214] (-) TimerEvent: {}
+[2.009743] (-) TimerEvent: {}
+[2.110258] (-) TimerEvent: {}
+[2.210784] (-) TimerEvent: {}
+[2.311264] (-) TimerEvent: {}
+[2.411680] (-) TimerEvent: {}
+[2.512104] (-) TimerEvent: {}
+[2.612507] (-) TimerEvent: {}
+[2.712903] (-) TimerEvent: {}
+[2.813319] (-) TimerEvent: {}
+[2.913742] (-) TimerEvent: {}
+[3.014151] (-) TimerEvent: {}
+[3.114554] (-) TimerEvent: {}
+[3.214908] (-) TimerEvent: {}
+[3.315324] (-) TimerEvent: {}
+[3.416086] (-) TimerEvent: {}
+[3.516731] (-) TimerEvent: {}
+[3.617170] (-) TimerEvent: {}
+[3.717799] (-) TimerEvent: {}
+[3.818209] (-) TimerEvent: {}
+[3.918596] (-) TimerEvent: {}
+[3.963179] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray traj_pub_Saver::filterMarkersWithinDuration(const MarkerArray&, std::chrono::seconds)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.963904] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.964030] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(\x1b[32m\x1b[KcurrentTime\x1b[m\x1b[K \x1b[01;31m\x1b[K-\x1b[m\x1b[K \x1b[34m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.964143] (trajectory_op) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.964260] (trajectory_op) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K             \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[3.964378] (trajectory_op) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K             \x1b[34m\x1b[Ktime_point<std::chrono::_V2::system_clock,[...]>\x1b[m\x1b[K\n'}
+[3.964494] (trajectory_op) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[Ktime_point<std::chrono::_V2::steady_clock,[...]>\x1b[m\x1b[K\n'}
+[3.964766] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.965184] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[3.965741] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[3.965850] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.965956] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:2\x1b[m\x1b[K:\n'}
+[3.966063] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.966177] (trajectory_op) StderrLine: {'line': b'  577 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[3.966280] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.966426] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.966533] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.966639] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.966770] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.966873] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.966977] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[3.967079] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[3.967178] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[3.967297] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:2\x1b[m\x1b[K:\n'}
+[3.967401] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.967524] (trajectory_op) StderrLine: {'line': b' 1693 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[3.967628] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.967731] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.967834] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.967944] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.968051] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.968158] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[3.968264] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[3.968371] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.968478] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:362:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.968589] (trajectory_op) StderrLine: {'line': b'  362 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const complex<_Tp>& __x, const complex<_Tp>& __y)\n'}
+[3.968696] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.968802] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:362:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.968924] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.969048] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.969157] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.969264] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[3.969371] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[3.969477] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.969583] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:371:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.969692] (trajectory_op) StderrLine: {'line': b'  371 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const complex<_Tp>& __x, const _Tp& __y)\n'}
+[3.969799] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.969904] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:371:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.970010] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.970120] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.970227] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.970350] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[3.970474] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[3.970579] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.970703] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.970811] (trajectory_op) StderrLine: {'line': b'  380 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const _Tp& __x, const complex<_Tp>& __y)\n'}
+[3.970919] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.971025] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.971145] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.971270] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.971376] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.971483] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[3.971588] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[3.971694] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.971800] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.971909] (trajectory_op) StderrLine: {'line': b'  457 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const complex<_Tp>& __x)\n'}
+[3.972016] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.972123] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.972245] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.972359] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.972470] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.972579] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[3.972687] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.972795] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.972903] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__minus, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.973017] (trajectory_op) StderrLine: {'line': b'  406 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(-, struct std::__minus)\n'}
+[3.973127] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.973234] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.973358] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.973471] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.973579] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.973688] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[3.973797] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.973905] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.974026] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__minus, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.974164] (trajectory_op) StderrLine: {'line': b'  406 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(-, struct std::__minus)\n'}
+[3.974276] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.974404] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.974516] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.974627] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.974735] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.974843] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[3.974963] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.975072] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.975179] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__minus, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.975304] (trajectory_op) StderrLine: {'line': b'  406 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(-, struct std::__minus)\n'}
+[3.975411] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.975517] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.975624] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.975739] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.975848] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.975956] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[3.976066] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.976187] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.976297] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__minus, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.976410] (trajectory_op) StderrLine: {'line': b'  406 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(-, struct std::__minus)\n'}
+[3.976517] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.976626] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.976722] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.976834] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.976928] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.977042] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[3.977133] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.977225] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.977317] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__minus, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.977412] (trajectory_op) StderrLine: {'line': b'  406 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(-, struct std::__minus)\n'}
+[3.977517] (trajectory_op) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.977609] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.977705] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.977801] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.977908] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.978015] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.978125] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.978242] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__minus, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.978370] (trajectory_op) StderrLine: {'line': b' 1187 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(-, __minus)\n'}
+[3.978490] (trajectory_op) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.978598] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.978705] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.978818] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.978940] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.979045] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.979139] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.979231] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__minus, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.979328] (trajectory_op) StderrLine: {'line': b' 1187 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(-, __minus)\n'}
+[3.979425] (trajectory_op) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.979516] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.979715] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.979829] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.979939] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.980041] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[3.980134] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:6\x1b[m\x1b[K:\n'}
+[3.980227] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__minus, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.980352] (trajectory_op) StderrLine: {'line': b' 1187 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(-, __minus)\n'}
+[3.980469] (trajectory_op) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.980578] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1187:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.980688] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.980816] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.980925] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.981019] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:1\x1b[m\x1b[K:\n'}
+[3.981115] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:660:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.981232] (trajectory_op) StderrLine: {'line': b'  660 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const duration<_Rep1, _Period1>& __lhs,\n'}
+[3.981326] (trajectory_op) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.981427] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:660:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.981535] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.981647] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.981754] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.981868] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:1\x1b[m\x1b[K:\n'}
+[3.981976] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1030:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982090] (trajectory_op) StderrLine: {'line': b' 1030 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[3.982198] (trajectory_op) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.982305] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1030:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.982441] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep2, _Period2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982549] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.982625] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.982699] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:1\x1b[m\x1b[K:\n'}
+[3.982783] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1042:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982866] (trajectory_op) StderrLine: {'line': b' 1042 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[3.982941] (trajectory_op) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.983016] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1042:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.983090] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:75:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_Clock\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::_V2::steady_clock\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::_V2::system_clock\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.983169] (trajectory_op) StderrLine: {'line': b'   75 |         auto timeDifference = std::chrono::duration_cast<std::chrono::seconds>(currentTime - \x1b[01;36m\x1b[KmarkerTimePoint\x1b[m\x1b[K);\n'}
+[3.983244] (trajectory_op) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.018749] (-) TimerEvent: {}
+[4.119535] (-) TimerEvent: {}
+[4.220006] (-) TimerEvent: {}
+[4.320504] (-) TimerEvent: {}
+[4.420975] (-) TimerEvent: {}
+[4.521452] (-) TimerEvent: {}
+[4.621907] (-) TimerEvent: {}
+[4.722738] (-) TimerEvent: {}
+[4.823228] (-) TimerEvent: {}
+[4.924089] (-) TimerEvent: {}
+[5.024772] (-) TimerEvent: {}
+[5.125256] (-) TimerEvent: {}
+[5.225952] (-) TimerEvent: {}
+[5.326697] (-) TimerEvent: {}
+[5.427168] (-) TimerEvent: {}
+[5.527646] (-) TimerEvent: {}
+[5.628094] (-) TimerEvent: {}
+[5.728522] (-) TimerEvent: {}
+[5.829001] (-) TimerEvent: {}
+[5.929479] (-) TimerEvent: {}
+[6.029960] (-) TimerEvent: {}
+[6.130441] (-) TimerEvent: {}
+[6.230923] (-) TimerEvent: {}
+[6.331417] (-) TimerEvent: {}
+[6.431885] (-) TimerEvent: {}
+[6.532366] (-) TimerEvent: {}
+[6.632842] (-) TimerEvent: {}
+[6.733322] (-) TimerEvent: {}
+[6.833816] (-) TimerEvent: {}
+[6.934309] (-) TimerEvent: {}
+[7.034829] (-) TimerEvent: {}
+[7.071710] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:76: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o] Error 1\n'}
+[7.072134] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/traj_publisher_saver.dir/all] Error 2\n'}
+[7.072784] (trajectory_op) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.076801] (trajectory_op) CommandEnded: {'returncode': 2}
+[7.134940] (-) TimerEvent: {}
+[7.168749] (trajectory_op) JobEnded: {'identifier': 'trajectory_op', 'rc': 2}
+[7.194032] (-) EventReactorShutdown: {}

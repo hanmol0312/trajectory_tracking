@@ -1,0 +1,24 @@
+{
+  "package_name": "trajectory_op",
+  "output_dir": "/home/anmol/anscer_task/build/trajectory_op/rosidl_generator_py/trajectory_op",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/anmol/anscer_task/build/trajectory_op/rosidl_adapter/trajectory_op:srv/Saver.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/anmol/anscer_task/build/trajectory_op/rosidl_adapter/trajectory_op/srv/Saver.idl"
+  ]
+}

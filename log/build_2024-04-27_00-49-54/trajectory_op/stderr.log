@@ -1,0 +1,18 @@
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In constructor ‘[01m[Ktraj_pub_Saver::traj_pub_Saver()[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   33 |       [01;31m[Kpublisher_[m[K = this->create_publisher<visualization_msgs::msg::Marker>("/marker", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   34 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:[m[K In member function ‘[01m[Kvoid traj_pub_Saver::timer_callback()[m[K’:
+[01m[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:119:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  119 |       [01;31m[Kpublisher_[m[K->publish(marker);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/traj_publisher_saver.dir/build.make:76: CMakeFiles/traj_publisher_saver.dir/src/traj_pub_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_saver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

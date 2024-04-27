@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000251] (trajectory_op) JobQueued: {'identifier': 'trajectory_op', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/anmol/anscer_task/install/tutorial_interfaces')])}
+[0.000320] (trajectory_op) JobStarted: {'identifier': 'trajectory_op'}
+[0.017852] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'cmake'}
+[0.019343] (trajectory_op) JobProgress: {'identifier': 'trajectory_op', 'progress': 'build'}
+[0.019428] (trajectory_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anmol/anscer_task/build/trajectory_op', '--', '-j12', '-l12'], 'cwd': '/home/anmol/anscer_task/build/trajectory_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anmol'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/tutorial_interfaces/lib:/home/anmol/ws_offboard_control/install/px4_ros_com/lib:/home/anmol/ws_offboard_control/install/px4_msgs/lib:/home/anmol/ws_offboard_control/install/custom_msgs/lib:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/lib:/home/anmol/ws_offboard_control/install/action_commands/lib:/home/anmol/autonomous_iit/install/tutorial_interfaces/lib:/home/anmol/autonomous_iit/install/px4_ros_com/lib:/home/anmol/autonomous_iit/install/px4_msgs/lib:/home/anmol/autonomous_iit/install/action_commands/lib:/home/anmol/nav2_tutorials/install/nav2_straightline_planner/lib:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anmol'), ('OLDPWD', '/home/anmol'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anmol/project_ws/install:/home/anmol/turtlebot_ws/install:/home/anmol/anmol_ws/install:/home/anmol/autonomous_iit/install:/home/anmol/nav2_tutorials/install:/home/anmol/ws_offboard_control/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anmol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anmol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/anmol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anmol-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1811,unix/anmol-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2baab02a_9b42_4599_af8c_a0606ed4dd8d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6CQXM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1380'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/project_ws/install/auto_bot:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anmol/anscer_task/build/trajectory_op'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anmol/anscer_task/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/project_ws/install/auto_bot/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_world/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_description/lib/python3.10/site-packages:/home/anmol/anmol_ws/install/bot_controller/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/manual_key_control/lib/python3.10/site-packages:/home/anmol/ws_offboard_control/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/custom_msgs/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/anmol/ws_offboard_control/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anmol/autonomous_iit/install/autonomous_mode/lib/python3.10/site-packages:/home/anmol/autonomous_iit/install/action_commands/local/lib/python3.10/dist-packages:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anmol/anscer_task/install/tutorial_interfaces:/home/anmol/turtlebot_ws/install/turtlebot3_simulations:/home/anmol/turtlebot_ws/install/turtlebot3_gazebo:/home/anmol/turtlebot_ws/install/turtlebot3_fake_node:/home/anmol/ws_offboard_control/install/tutorial_interfaces:/home/anmol/ws_offboard_control/install/px4_ros_com:/home/anmol/ws_offboard_control/install/px4_msgs:/home/anmol/ws_offboard_control/install/custom_msgs:/home/anmol/ws_offboard_control/install/action_tutorials_interfaces:/home/anmol/ws_offboard_control/install/action_commands:/home/anmol/autonomous_iit/install/tutorial_interfaces:/home/anmol/autonomous_iit/install/px4_ros_com:/home/anmol/autonomous_iit/install/px4_msgs:/home/anmol/autonomous_iit/install/action_commands:/home/anmol/nav2_tutorials/install/nav2_gradient_costmap_plugin:/home/anmol/nav2_tutorials/install/nav2_costmap_filters_demo:/home/anmol/project_ws/install/auto_bot:/home/anmol/anmol_ws/install/bot_world:/home/anmol/anmol_ws/install/bot_description:/home/anmol/anmol_ws/install/bot_controller:/home/anmol/ws_offboard_control/install/manual_key_control:/home/anmol/autonomous_iit/install/autonomous_mode:/home/anmol/nav2_tutorials/install/nav2_straightline_planner:/home/anmol/nav2_tutorials/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.079962] (trajectory_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traj_publisher_Saver\x1b[0m\n'}
+[0.095642] (trajectory_op) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable traj_publisher_reader\x1b[0m\n'}
+[0.099273] (-) TimerEvent: {}
+[0.109403] (trajectory_op) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o\x1b[0m\n'}
+[0.196787] (trajectory_op) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.197063] (trajectory_op) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.199366] (trajectory_op) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.199545] (-) TimerEvent: {}
+[0.201972] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:199: traj_publisher_reader] Error 1\n'}
+[0.202231] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/traj_publisher_reader.dir/all] Error 2\n'}
+[0.202294] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.299960] (-) TimerEvent: {}
+[0.400577] (-) TimerEvent: {}
+[0.500952] (-) TimerEvent: {}
+[0.601349] (-) TimerEvent: {}
+[0.701764] (-) TimerEvent: {}
+[0.802177] (-) TimerEvent: {}
+[0.902563] (-) TimerEvent: {}
+[1.002959] (-) TimerEvent: {}
+[1.103643] (-) TimerEvent: {}
+[1.204044] (-) TimerEvent: {}
+[1.304520] (-) TimerEvent: {}
+[1.405067] (-) TimerEvent: {}
+[1.505511] (-) TimerEvent: {}
+[1.605852] (-) TimerEvent: {}
+[1.706168] (-) TimerEvent: {}
+[1.806555] (-) TimerEvent: {}
+[1.906910] (-) TimerEvent: {}
+[2.007296] (-) TimerEvent: {}
+[2.107677] (-) TimerEvent: {}
+[2.208078] (-) TimerEvent: {}
+[2.308469] (-) TimerEvent: {}
+[2.408819] (-) TimerEvent: {}
+[2.509214] (-) TimerEvent: {}
+[2.609612] (-) TimerEvent: {}
+[2.702807] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid traj_pub_Saver::traj_callback(const Odometry&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.703308] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call constructor \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration\x1b[m\x1b[K\xe2\x80\x99 directly [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.703371] (trajectory_op) StderrLine: {'line': b'  109 |     marker.lifetime = \x1b[01;31m\x1b[Krclcpp::Duration::Duration(0)\x1b[m\x1b[K; // Set the lifetime to 0 for a persistent marker\n'}
+[2.703443] (trajectory_op) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.703494] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kfor a function-style cast, remove the redundant \xe2\x80\x98\x1b[01m\x1b[K::Duration\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.703545] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.703595] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.703652] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[2.703703] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[2.703752] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.703801] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.703866] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.703916] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.703964] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.704014] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.704063] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.704112] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.704161] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.704210] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:7\x1b[m\x1b[K:\n'}
+[2.704259] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704310] (trajectory_op) StderrLine: {'line': b'   48 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)\n'}
+[2.704360] (trajectory_op) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.704411] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.704463] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:109:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704524] (trajectory_op) StderrLine: {'line': b'  109 |     marker.lifetime = \x1b[01;36m\x1b[Krclcpp::Duration::Duration(0)\x1b[m\x1b[K; // Set the lifetime to 0 for a persistent marker\n'}
+[2.704574] (trajectory_op) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.704622] (trajectory_op) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.704671] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[2.704729] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[2.704778] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.704835] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.704884] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.704933] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.704981] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.705030] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.705079] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.705128] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.705177] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.705226] (trajectory_op) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anmol/anscer_task/src/trajectory_op/src/traj_pub_saver.cpp:7\x1b[m\x1b[K:\n'}
+[2.705275] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705325] (trajectory_op) StderrLine: {'line': b'  151 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K() = default;\n'}
+[2.705374] (trajectory_op) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.705423] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.705473] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705523] (trajectory_op) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const Duration & rhs);\n'}
+[2.705572] (trajectory_op) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.705621] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705681] (trajectory_op) StderrLine: {'line': b'   61 |   Duration(\x1b[01;36m\x1b[Kconst Duration & rhs\x1b[m\x1b[K);\n'}
+[2.705742] (trajectory_op) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.705791] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rcl_duration_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705860] (trajectory_op) StderrLine: {'line': b'   59 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const rcl_duration_t & duration);\n'}
+[2.705914] (trajectory_op) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.705964] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.706015] (trajectory_op) StderrLine: {'line': b'   59 |   explicit Duration(\x1b[01;36m\x1b[Kconst rcl_duration_t & duration\x1b[m\x1b[K);\n'}
+[2.706066] (trajectory_op) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.706116] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706166] (trajectory_op) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)\n'}
+[2.706215] (trajectory_op) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.706263] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Duration&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.706316] (trajectory_op) StderrLine: {'line': b'   53 |   Duration(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Duration & duration_msg\x1b[m\x1b[K);  // NOLINT(runtime/explicit)\n'}
+[2.706365] (trajectory_op) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706415] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(std::chrono::nanoseconds)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706465] (trajectory_op) StderrLine: {'line': b'   42 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(std::chrono::nanoseconds nanoseconds);\n'}
+[2.706514] (trajectory_op) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.706566] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::nanoseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.706629] (trajectory_op) StderrLine: {'line': b'   42 |   explicit Duration(\x1b[01;36m\x1b[Kstd::chrono::nanoseconds nanoseconds\x1b[m\x1b[K);\n'}
+[2.706685] (trajectory_op) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706740] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(int32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706790] (trajectory_op) StderrLine: {'line': b'   39 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(int32_t seconds, uint32_t nanoseconds);\n'}
+[2.706839] (trajectory_op) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.706888] (trajectory_op) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.709740] (-) TimerEvent: {}
+[2.810139] (-) TimerEvent: {}
+[2.910504] (-) TimerEvent: {}
+[3.010826] (-) TimerEvent: {}
+[3.111213] (-) TimerEvent: {}
+[3.211615] (-) TimerEvent: {}
+[3.312000] (-) TimerEvent: {}
+[3.412408] (-) TimerEvent: {}
+[3.513330] (-) TimerEvent: {}
+[3.613730] (-) TimerEvent: {}
+[3.714207] (-) TimerEvent: {}
+[3.814616] (-) TimerEvent: {}
+[3.915017] (-) TimerEvent: {}
+[4.015384] (-) TimerEvent: {}
+[4.115723] (-) TimerEvent: {}
+[4.216429] (-) TimerEvent: {}
+[4.316831] (-) TimerEvent: {}
+[4.417437] (-) TimerEvent: {}
+[4.518156] (-) TimerEvent: {}
+[4.618581] (-) TimerEvent: {}
+[4.718999] (-) TimerEvent: {}
+[4.819388] (-) TimerEvent: {}
+[4.892019] (trajectory_op) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/traj_publisher_Saver.dir/build.make:76: CMakeFiles/traj_publisher_Saver.dir/src/traj_pub_saver.cpp.o] Error 1\n'}
+[4.892528] (trajectory_op) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/traj_publisher_Saver.dir/all] Error 2\n'}
+[4.892765] (trajectory_op) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.895737] (trajectory_op) CommandEnded: {'returncode': 2}
+[4.919478] (-) TimerEvent: {}
+[4.960221] (trajectory_op) JobEnded: {'identifier': 'trajectory_op', 'rc': 2}
+[4.970738] (-) EventReactorShutdown: {}

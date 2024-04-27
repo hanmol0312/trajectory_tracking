@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -ltf2_ros: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/traj_publisher_reader.dir/build.make:231: traj_publisher_reader] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/traj_publisher_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
